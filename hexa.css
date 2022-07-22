@@ -1,0 +1,41 @@
+.hexa {
+    width: 35vw;
+    height: calc(35vw*1.743);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: -18vw;
+    position: relative;
+    overflow: hidden !important;
+    transform: rotate(30deg);
+
+
+}
+
+.hexa_inner {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(60deg);
+    overflow: hidden;
+}
+
+.hexa_inner2 {
+    display: flex;
+    width: inherit;
+    height: inherit;
+    background-size: cover !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-120deg);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    transform: rotate(30deg);
+}
+

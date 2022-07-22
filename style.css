@@ -1,0 +1,116 @@
+.fixed {
+    width: 100vw; height: 100%;
+    background-image: url(supermoon.jpg);
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: fixed;
+}
+
+.profile {
+    width: 80vw;
+    height: 50%;
+    background-color: rgb(44, 35, 91);
+    border-radius:5px;
+    border : 2px solid rgb(255, 255, 255); 
+    margin: 0pt auto 0px auto;
+    color: white;
+
+    display: flex;
+    flex-direction: column; /* column대신 low도 가능 */ 
+    justify-content: center;
+    align-items: center;
+}
+
+.upper {
+    width: 100vw;
+    height: 40vw;
+    background-color: rgb(39, 9, 132)
+
+    margin: 0px auto 0px auto;
+    
+    display: flex;
+    flex-direction: column; /* column대신 low도 가능 */ 
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.middle{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100vw;
+    height: 30vw;
+    margin: 0px auto 0px auto;
+
+    position: relative;
+    flex-direction: row; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.middle_inner {
+    width: 20vw;
+    height: 20vw;
+    background-color: rgba(39, 9, 132, 0.7);
+    border-radius: 100%;
+     
+    /* margin-top: 10vw; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border: 3px solid white;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.middle_inner > a {
+    /* background-color: aqua; */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+    width: inherit;
+    height: inherit;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.middle_inner a:hover {
+    background-color: rgb(255, 187, 28);
+    color: white;
+}
+
+.under {
+    /* background-color: aquamarine; */
+    width: 50vw;
+    height: 35vw;
+    margin: 50px auto 0px auto;
+
+    display: flex;
+    flex-direction: column; /* column대신 low도 가능 */ 
+    justify-content:end;
+    align-items: center;
+
+}
+.waterm {
+    /* background-color: blanchedalmond; */
+    width: 50%;
+    height: 30%;
+    margin: 0px auto 0px auto;
+    
+
+    background-image: url(워터마크.png);
+    background-position: center;
+    background-size: cover;    
+}
